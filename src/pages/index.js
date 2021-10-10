@@ -78,7 +78,7 @@ function Home() {
       </header>
       <main>
       <div>
-        <ReactPlayer url="https://raw.githubusercontent.com/tabascoes/RFS-nextjs-video--ssbwiki-3/main/public/video/test/2021100620250300-C6D726972790F87F6521C61FBA400A1DX.mp4?raw=true" controls="true" width='100%' height='100%' />
+        <ReactPlayer url="https://raw.githubusercontent.com/tabascoes/vercel-utamake-wikiportal/main/public/UtamakeWiki%20Official%20pages%20of%20Utamake%20World.mp4?raw=true" controls="true" width='100%' height='100%' />
       </div>
         {features && features.length && (
           <section className={styles.features}>
