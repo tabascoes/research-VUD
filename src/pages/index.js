@@ -6,6 +6,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
+import ReactPlayer from 'react-player';
+
 const features = [
   {
     title: <>美しくなったサイト</>,
@@ -75,6 +77,9 @@ function Home() {
         </div>
       </header>
       <main>
+      <div>
+        <ReactPlayer url="https://raw.githubusercontent.com/tabascoes/RFS-nextjs-video--ssbwiki-3/main/public/video/test/2021100620250300-C6D726972790F87F6521C61FBA400A1DX.mp4?raw=true" controls="true" width='100%' height='100%' />
+      </div>
         {features && features.length && (
           <section className={styles.features}>
             <div className="container">
